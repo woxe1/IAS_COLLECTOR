@@ -1,0 +1,20 @@
+.weather-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%; /* Регулируйте размер квадратной области здесь */
+    height: 30%; /* Регулируйте размер квадратной области здесь */
+    background-color: black; /* Цвет фона */
+    border-radius: 15px; /* Радиус закругления углов */
+    border: 2px solid gray; /* Цвет рамки и её толщина */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray; /* Цвет текста */
+    font-family: Arial, sans-serif;
+    font-size: 300%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень */
+    margin: 50px;
+  }
+  
+  

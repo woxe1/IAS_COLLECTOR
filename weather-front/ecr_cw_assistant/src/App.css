@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #dd4814, #77216f);
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.collector-container{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%; /* Регулируйте размер квадратной области здесь */
+  height: 10%; /* Регулируйте размер квадратной области здесь */
+  background-color: black; /* Цвет фона */
+  border-radius: 15px; /* Радиус закругления углов */
+  border: 2px solid gray; /* Цвет рамки и её толщина */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray; /* Цвет текста */
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Тень */
+  margin: 50px;
+}
+
