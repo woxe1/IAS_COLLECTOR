@@ -1,0 +1,2 @@
+class DeviceDetector:
+    pass

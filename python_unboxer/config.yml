@@ -1,0 +1,10 @@
+database:
+  host:
+  port:
+  user:
+  password:
+
+disk:
+  name:
+  points_folder:
+  events_folder:
